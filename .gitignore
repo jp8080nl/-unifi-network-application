@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# MongoDB data
+unifi-db/
+
+# UniFi Network Application data
+unifi-network-application/
+
+# Log files
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+.project
+.settings/
+.classpath
+
+# Node.js (if needed in future)
+node_modules/
+npm-debug.log*
+
+# Backup files
+*.bak
+*.backup
+*~ 
