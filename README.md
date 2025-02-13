@@ -96,3 +96,4 @@ tar -czf unifi-backup-$(date +%Y%m%d).tar.gz unifi-db/ unifi-network-application
 # Restart containers
 docker compose up -d
 ```
+# Test
